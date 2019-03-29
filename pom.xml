@@ -11,6 +11,7 @@
   <modules>
     <module>cdidemo</module>
     <module>beanvalidationdemo</module>
+    <module>jpademo</module>
   </modules>
 
   <dependencyManagement>
