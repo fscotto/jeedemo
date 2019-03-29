@@ -10,6 +10,7 @@
 
   <modules>
     <module>cdidemo</module>
+    <module>beanvalidationdemo</module>
   </modules>
 
   <dependencyManagement>
