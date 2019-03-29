@@ -12,6 +12,7 @@
     <module>cdidemo</module>
     <module>beanvalidationdemo</module>
     <module>jpademo</module>
+    <module>xmlandjsondemo</module>
   </modules>
 
   <dependencyManagement>
