@@ -12,6 +12,7 @@
     <module>cdidemo</module>
     <module>beanvalidationdemo</module>
     <module>jpademo</module>
+    <module>ejbdemo</module>
     <module>xmlandjsondemo</module>
   </modules>
 
@@ -47,6 +48,12 @@
         <groupId>org.apache.derby</groupId>
         <artifactId>derbyclient</artifactId>
         <version>10.9.1.0</version>
+      </dependency>
+      <dependency>
+        <groupId>org.glassfish.main.extras</groupId>
+        <artifactId>glassfish-embedded-all</artifactId>
+        <version>4.1.2</version>
+        <scope>provided</scope>
       </dependency>
       <dependency>
         <groupId>org.apache.derby</groupId>
