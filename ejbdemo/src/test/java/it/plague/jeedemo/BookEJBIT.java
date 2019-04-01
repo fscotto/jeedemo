@@ -1,6 +1,7 @@
 package it.plague.jeedemo;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 import java.io.File;
 import java.util.HashMap;
@@ -24,7 +25,8 @@ public class BookEJBIT {
       assertNotNull(ctx.lookup("java:global/classes/BookEJB!it.plague.jeedemo.BookEJB"));
 
       // Looks up the EJB
-      BookEJB bookEJB = (BookEJB) ctx.lookup("java:global/classes/BookEJB!it.plague.jeedemo.BookEJB");
+      BookEJB bookEJB = (BookEJB) ctx
+          .lookup("java:global/classes/BookEJB!it.plague.jeedemo.BookEJB");
 
       // Find all the books and makes sure there are two (inserted by the DBPopulator)
       assertEquals(2, bookEJB.findBooks().size());

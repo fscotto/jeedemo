@@ -8,6 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.NamedQuery;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -15,6 +16,7 @@ import lombok.NoArgsConstructor;
 @Entity
 @Data
 @NoArgsConstructor
+@AllArgsConstructor
 @Builder
 @NamedQuery(name = "Book.findAll", query = "select b from Book b")
 public class Book implements Serializable {

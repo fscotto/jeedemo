@@ -3,18 +3,18 @@ package it.plague.jeedemo;
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 import javax.annotation.sql.DataSourceDefinition;
-import javax.ejb.Singleton;
 import javax.ejb.Startup;
+import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 
 
 @Startup
-@Singleton
+@ApplicationScoped
 @DataSourceDefinition(
     className = "org.apache.derby.jdbc.EmbeddedDataSource",
     name = "java:global/jdbc/ejbdemoDS",
-    user = "app",
-    password = "app",
+    user = "APP",
+    password = "APP",
     databaseName = "ejbdemo",
     properties = {"connectionAttributes=;create=true"})
 public class DatabasePopulator {
