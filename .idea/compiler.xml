@@ -12,6 +12,7 @@
         <module name="beanvalidationdemo" />
         <module name="jmsdemo" />
         <module name="xmlandjsondemo" />
+        <module name="jaxwsdemoservice" />
         <module name="ejbdemo" />
       </profile>
     </annotationProcessing>
