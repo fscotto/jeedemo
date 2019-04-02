@@ -14,6 +14,7 @@
     <module>jpademo</module>
     <module>ejbdemo</module>
     <module>xmlandjsondemo</module>
+    <module>jmsdemo</module>
   </modules>
 
   <dependencyManagement>
