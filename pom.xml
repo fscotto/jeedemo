@@ -15,6 +15,7 @@
     <module>ejbdemo</module>
     <module>xmlandjsondemo</module>
     <module>jmsdemo</module>
+    <module>jaxwsdemo-service</module>
   </modules>
 
   <dependencyManagement>

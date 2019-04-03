@@ -9,9 +9,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cdidemo" />
         <module name="jpademo" />
+        <module name="xmlandjsondemo" />
         <module name="beanvalidationdemo" />
         <module name="jmsdemo" />
-        <module name="xmlandjsondemo" />
+        <module name="jaxwsdemo-client" />
+        <module name="jaxwsdemoservice" />
+        <module name="jaxwsdemo-service" />
         <module name="ejbdemo" />
       </profile>
     </annotationProcessing>
