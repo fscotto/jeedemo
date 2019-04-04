@@ -9,16 +9,18 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cdidemo" />
         <module name="jpademo" />
-        <module name="xmlandjsondemo" />
         <module name="beanvalidationdemo" />
         <module name="jmsdemo" />
         <module name="jaxwsdemo-client" />
+        <module name="xmlandjsondemo" />
         <module name="jaxwsdemoservice" />
         <module name="jaxwsdemo-service" />
         <module name="ejbdemo" />
+        <module name="jaxrsdemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="jaxwsdemo-client" target="1.7" />
       <module name="maven-archiver (1)" target="1.5" />
       <module name="maven-archiver (2)" target="1.5" />
       <module name="maven-archiver (3)" target="1.5" />
