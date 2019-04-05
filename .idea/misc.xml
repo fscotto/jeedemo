@@ -4,6 +4,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/jaxrsdemo" />
     <file type="web" url="file://$PROJECT_DIR$/jaxwsdemo-service" />
+    <file type="web" url="file://$PROJECT_DIR$/jsfdemo" />
   </component>
   <component name="GOROOT" path="/usr/lib/go" />
   <component name="Kotlin2JsCompilerArguments">
