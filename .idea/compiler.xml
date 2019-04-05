@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cdidemo" />
         <module name="jpademo" />
+        <module name="jsfdemo" />
         <module name="beanvalidationdemo" />
         <module name="jmsdemo" />
         <module name="jaxwsdemo-client" />

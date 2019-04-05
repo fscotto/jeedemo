@@ -17,6 +17,7 @@
     <module>jmsdemo</module>
     <module>jaxwsdemo-service</module>
     <module>jaxrsdemo</module>
+    <module>jsfdemo</module>
   </modules>
 
   <dependencyManagement>
