@@ -1,2 +1,3 @@
-# jeedemo
-Repository con gli esempi del Libro "Beginning Java EE 7"
+# JEE7 Samples
+
+This repository contains the samples from "Beginning JEE 7"
